@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    width: 100%;
+    position: fixed;
+    background-color: #252529;
+}
+   
+.navbar ul{
+    display: flex;
+    overflow: auto;
+}
+
+.navbar ul li{
+    padding: 0px 25px;
+    /* margin: 10px; */
+    list-style: none;
+}
+
+.navbar li a{
+    text-decoration: none; 
+    color:white;
+} 
+.showcase{
+    display: flex;
+    height: 100vh;
+    background: url(showcase.jpeg) no-repeat center/cover fixed;
+    color: white;
+}
+.content{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto ;
+    font-size: 25px;
+}
+.content p{
+    padding: 20px 50px;
+
+}
+.section-2{
+    background-color: #252529;
+    text-align: center;
+    color: white;
+}
+.section-2 h1{
+    padding: 20px;
+    margin: 0;
+}
+.button{
+    padding: 20px 30px;
+    background-color: red;
+    border: 0;
+    font-size: 20px;
+    color: white;
+}
+.section-2 p{
+    padding: 20px 50px;
+}
+.section-3{
+    text-align: center;
+    align-items: center;
+}
+.button-1{
+    background-color:rgb(22, 22, 100);
+    padding: 20px;
+    color: white;
+    border: 0;
+    margin: 20px;
+    font-size: 20px;
+}
+.section-3 h2{
+    font-size: 35px;
+    padding: 20px;
+}
+.section-3 p{
+    padding: 20px 200px;
+    font-size: 25px;
+}
+.section-4{
+ 
+   color: white;
+    height: 600px;
+    text-align: center;
+    background: url(section-bg.jpeg) center/cover no-repeat fixed ;
+}
+.content-1{
+    justify-content: center;
+    margin: 100px;
+    padding: 100px;
+}
+.section-4 h2{
+    font-size: 30px;
+    padding: 10px 80px;
+}
+.section-4 p{
+    font-size: 25px;
+    padding: 20px 100px;
+}
+.section-5{
+    padding: 20px 150px;
+    display: flex;
+    justify-content: space-around;
+}
+.content-2{
+    width: 90%;
+padding: 20px 50px;
+}
+.button-2{
+  text-decoration: none;
+  border: none;
+  font-size: 20px;
+  background: none;
+  cursor: pointer;
+}
+.links{
+    color: white;
+    background-color:#333;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.click{
+    align-items:flex-start;
+    /* text-align: center; */
+}
+.click ul{
+    overflow: auto;
+   list-style: none;
+}
+.click li a{
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.footer{
+    margin: 0;
+    background-color: #252529;
+    color: white;
+    height:50px;
+    text-align: center;
+}
+.footer h4{
+    margin: 0;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+ 
+}
+
+
+    
